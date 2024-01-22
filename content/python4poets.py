@@ -5,13 +5,13 @@ import nltk
 from tqdm.auto import tqdm
 
 # make sure we have the tokenizer package
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
-    nltk.download('stopwords')
+#try:
+#    nltk.data.find('tokenizers/punkt')
+#except LookupError:
+#    nltk.download('punkt')
+#    nltk.download('wordnet')
+#    nltk.download('omw-1.4')
+#    nltk.download('stopwords')
 
 
 
